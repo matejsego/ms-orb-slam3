@@ -1,0 +1,58 @@
+%YAML:1.0
+
+File.version: "1.0"
+Camera.type: "PinHole"
+
+# Parametri monokularne kalibracije kamere 1:
+Camera1.fx: 417.7854970382802
+Camera1.fy: 419.21916340096567
+Camera1.cx: 158.3681949128035
+Camera1.cy: 106.87943923864903
+Camera1.k1: 0.1946827434371365
+Camera1.k2: -0.520271895491631
+Camera1.p1: -0.008387802002003822
+Camera1.p2: -0.0012691586931744983
+
+Camera.width: 320
+Camera.height: 240
+Camera.newWidth: 320
+Camera.newHeight: 240
+Camera.fps: 10
+Camera.RGB: 0
+
+# Matrica transformacije od kamere do IMU-a (ne koristimo ju)
+IMU.T_b_c1: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: f
+   data: [1.0, 0.0, 0.0, 0.0,
+          0.0, 1.0, 0.0, 0.0,
+          0.0, 0.0, 1.0, 0.0,
+          0.0, 0.0, 0.0, 1.0]
+
+# Parametri IMU-a iz njegove dokumentacije (ne koriste se)
+IMU.NoiseGyro: 2.0e-3
+IMU.NoiseAcc: 2.0e-2
+IMU.GyroWalk: 2.0e-4
+IMU.AccWalk: 1.0e-3
+IMU.Frequency: 200.0
+
+ORBextractor.nFeatures: 500
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 5
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -1.7
+Viewer.ViewpointZ: 0.8
+Viewer.ViewpointF: 500.0
+
+camera_frame_id: "nicla_camera"
+imu_frame_id: "nicla_imu"
