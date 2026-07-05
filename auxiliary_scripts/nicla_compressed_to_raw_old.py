@@ -5,7 +5,7 @@ from sensor_msgs.msg import CompressedImage, Image
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
-
+ 
 class NiclaCompressedToRaw(Node):
     def __init__(self):
         super().__init__('nicla_compressed_to_raw')
