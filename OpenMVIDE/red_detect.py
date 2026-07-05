@@ -1,4 +1,4 @@
-import sensor 
+import sensor
 import time
 
 sensor.reset()
