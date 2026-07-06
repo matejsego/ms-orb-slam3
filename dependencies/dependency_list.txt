@@ -1,0 +1,36 @@
+This is a comprehensive list of dependencies used for the realization of this project.
+All of the dependencies can be installed using the sudo apt install command, except the first two where it is needed to follow the steps on the official website.
+
+ros2 (https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
+Pangolin (https://github.com/stevenlovegrove/Pangolin)
+
+gedit
+plocate
+ros-jazzy-xacro
+libfuse2t64
+ros-jazzy-image-transport-plugins
+net-tools
+ros-jazzy-ros-gz-sim
+ros-jazzy-rviz2
+ros-jazzy-robot-state-publisher
+build-essential
+cmake
+git
+pkg-config
+libgoogle-glog-dev
+libgflags-dev
+libsqlite3-dev
+libglew-dev
+libssl-dev
+libopencv-dev
+libeigen3-dev
+ros-jazzy-cv-bridge
+ros-jazzy-image-transport
+ros-jazzy-sensor-msgs
+ros-jazzy-tf2-ros
+ros-jazzy-tf2-geometry-msgs
+ros-jazzy-camera-calibration
+ros-jazzy-image-pipeline
+ninja-build
+ros-jazzy-rosbag2
+ros-jazzy-camera-calibration
