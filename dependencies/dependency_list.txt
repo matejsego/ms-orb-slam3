@@ -34,3 +34,8 @@ ros-jazzy-image-pipeline
 ninja-build
 ros-jazzy-rosbag2
 ros-jazzy-camera-calibration
+
+Tools for data interpretation:
+
+rviz2 (pre-installed with ros2)
+evo - for trajectory handling, evaluation and comparison (pip install evo --break-system-packages)
