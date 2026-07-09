@@ -20,6 +20,8 @@ The configuration in `nicla_vision_drivers/arduino/main/` must be flashed indivi
 
 ## 2. Launching the Stream and ROS2 Bridge
 
+Replace `<HOST_IP>` below with the host machine's local IPv4 address obtained in Step 1.
+
 ```bash
 cd ~/ms-orb-slam3/ros2_ws
 colcon build --packages-select nicla_vision_ros2 --symlink-install
